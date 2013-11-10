@@ -1,20 +1,22 @@
 body{
 	background-color: #424242;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 20px;
+
 }
 
-p{
-	font-family: arial, sans-serif;
-	font-size: 26px;
-	color: #FDF4F4;
-}
+
 #contenedor{  
-	text-align: left;
+		text-align:center;
   width: 1200px;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 #head{
+
+	
+	font-family: 'Crimson Text', serif; font-weight: 700; 
 	padding-left: 4px;
 	width:97%;
 	height:20%;
@@ -36,10 +38,11 @@ p{
 }
 
 #body2{
+
 	padding-left: 4px;
 	width:38%;
 	height:70%;
-	background-color: #1aa765;
+	background-color: #A4C9BF;
 	float: left;
 	margin-right: 2px;
 }
@@ -59,4 +62,37 @@ p{
 	clear:both;
 	
 
+}
+
+#box{
+	text-align: right;
+	width:600px;
+	clear:both;
+	float:left;
+		}
+
+#left{
+	width:150px;
+	float:left;
+	clear:left;
+	margin-right:10px;
+}
+#right{
+	width:150px;
+	float:left;
+	clear:right;
+}
+
+
+
+.input{
+	height:30px;
+    width:150px;
+    background:#FDFDFD;
+    border:2px solid #A3F7E2;
+    padding:10px;
+    margin-top:5px;
+    font-size:10px;
+    color:#ffffff;
+    box-shadow: 2px 2px 5px #999;
 }
